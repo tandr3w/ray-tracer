@@ -19,6 +19,20 @@ int matrix_flatten(int height, int x, int y);
 
 bool operator==(const Matrix& lhs, const Matrix& rhs);
 
+Matrix transpose(Matrix& m);
+
+float determinant(Matrix& m);
+
+Matrix submatrix(Matrix& m, int x, int y);
+
+float minor(Matrix& m, int x, int y);
+
+float cofactor(Matrix& m, int x, int y);
+
+bool invertible(Matrix& m);
+
+Matrix inverse(Matrix& m);
+
 // Matrix operator+(const Matrix& lhs, const Matrix& rhs);
 // Matrix operator-(const Matrix& lhs, const Matrix& rhs);
 // Matrix operator-(const Matrix& t);

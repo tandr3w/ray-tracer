@@ -7,6 +7,9 @@
 Matrix::Matrix(int _size){
     size = _size;
     elements = std::vector<float>(size*size, 0);
+    for (int i=0; i<size; i++){
+        elements[matrix_flatten(size, i, i)] = 1;
+    }
 }
 
 Matrix::Matrix(int _size, std::vector<float> init){
@@ -26,8 +29,94 @@ int matrix_flatten(int size, int x, int y){
     return x*size + y;
 }
 
+Matrix transpose(Matrix& m){
+    std::vector<float> result(m.size*m.size, 0);
+    for (int i=0; i<m.size; i++){
+        for (int j=0; j<m.size; j++){
+            result[matrix_flatten(m.size, i, j)] = m.elements[matrix_flatten(m.size, j, i)];
+        }
+    }
+    return Matrix(m.size, result);
+}
+
+float determinant(Matrix& m){
+    if (m.size == 2){
+        return m.elements[matrix_flatten(2, 0, 0)] *  m.elements[matrix_flatten(2, 1, 1)] - 
+               m.elements[matrix_flatten(2, 1, 0)] *  m.elements[matrix_flatten(2, 0, 1)];
+    }
+    else {
+        int result = 0;
+        for (int j=0; j<m.size; j++){
+            result += m.elements[matrix_flatten(m.size, 0, j)] * cofactor(m, 0, j);
+        }
+        return result;
+    }
+}
+
+Matrix submatrix(Matrix& m, int x, int y){
+    if (m.size == 1){
+        return NULL;
+    }
+    std::vector<float> result((m.size-1)*(m.size-1), 0);
+    int x_counter = 0;
+    int y_counter = 0;
+    for (int i=0; i<m.size; i++){
+        if (i == x){
+            continue;
+        }
+        for (int j=0; j<m.size; j++){
+            if (j == y){
+                continue;
+            }
+
+            result[matrix_flatten(m.size-1, x_counter, y_counter)] = m.elements[matrix_flatten(m.size, i, j)];
+
+            y_counter += 1;
+        }
+        y_counter = 0;
+        x_counter += 1;
+    }
+    return Matrix(m.size-1, result);
+}
+
+float minor(Matrix& m, int x, int y){
+    if (m.size == 1){
+        return NULL;
+    }
+    return determinant(submatrix(m, x, y));
+}
+
+float cofactor(Matrix& m, int x, int y){
+    if (m.size == 1){
+        return NULL;
+    }
+    int res = minor(m, x, y);
+    if ((x + y) % 2 == 0){
+        return res;
+    }
+    else {
+        return -res;
+    }
+}
+
+bool invertible(Matrix& m){
+    return !float_equal(determinant(m), 0);
+}
+
+Matrix inverse(Matrix& m){
+    assert(invertible(m));
+    std::vector<float> result(m.size*m.size, 0);
+    for (int row=0; row<m.size; row++){
+        for (int col=0; col<m.size; col++){
+            result[matrix_flatten(m.size, row, col)] = cofactor(m, col, row) / determinant(m);
+        }
+    }
+    return Matrix(m.size, result);
+}
+
+
 bool operator==(const Matrix& lhs, const Matrix& rhs){
-    if (lhs.size != rhs.size || lhs.size != rhs.size){
+    if (lhs.size != rhs.size){
         return false;
     }
     for (int i=0; i<lhs.size; i++){
@@ -56,7 +145,7 @@ Matrix operator*(const Matrix& lhs, const Matrix& rhs){
     assert(lhs.size == rhs.size);
     std::vector<float> productMatrix(lhs.size*lhs.size, 0);
 
-    int product = 0;
+    float product = 0;
     for (int row=0; row<lhs.size; row++){
         for (int col=0; col<lhs.size; col++){
             for (int i=0; i<lhs.size; i++){

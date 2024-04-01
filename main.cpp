@@ -4,6 +4,7 @@
 // TODO:
 // Convert vectors to dynamically allocated arrays
 // Split matrix functions into 4x4, 3x3, 2x2, etc. for more code clarity
+// Turn things that should be constants into constants
 
 // Build: cmake .. && cmake --build . && ctest -C Debug
 
