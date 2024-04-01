@@ -1,0 +1,19 @@
+#include <iostream>
+#include "tuple.h"
+
+// TODO:
+// Convert vectors to dynamically allocated arrays
+// Split matrix functions into 4x4, 3x3, 2x2, etc. for more code clarity
+
+// Build: cmake .. && cmake --build . && ctest -C Debug
+
+int main(){
+    const auto tuple = new Tuple(1.2, 1.5, 1.7, 0.0);
+    std::cout << tuple->isPoint() << std::endl;
+    std::cout << tuple->isVector() << std::endl;
+    std::cout << tuple->x << std::endl;
+    std::cout << tuple->y << std::endl;
+    std::cout << tuple->z << std::endl;
+    std::cout << tuple->w << std::endl;
+    return 0;
+}
