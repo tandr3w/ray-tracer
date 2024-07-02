@@ -36,3 +36,30 @@ TEST_CASE("Reflection"){
   Tuple p = Point(2, 3, 4);
   REQUIRE(transform * p == Point(-2, 3, 4));
 }
+
+TEST_CASE("X Rotation"){
+  Matrix half_quarter = rotation_x(PI/4);
+  Matrix full_quarter = rotation_x(PI/2);
+  Tuple p = Point(0, 1, 0);
+  REQUIRE(half_quarter * p == Point(0, sqrt(2)/2, sqrt(2)/2));
+  REQUIRE(full_quarter * p == Point(0, 0, 1));
+
+  Matrix inv = inverse(half_quarter);
+  REQUIRE(inv * p == Point(0, sqrt(2)/2, -sqrt(2)/2));
+}
+
+TEST_CASE("Y Rotation"){
+  Matrix half_quarter = rotation_y(PI/4);
+  Matrix full_quarter = rotation_y(PI/2);
+  Tuple p = Point(0, 0, 1);
+  REQUIRE(half_quarter * p == Point(sqrt(2)/2, 0, sqrt(2)/2));
+  REQUIRE(full_quarter * p == Point(1, 0, 0));
+}
+
+TEST_CASE("Z Rotation"){
+  Matrix half_quarter = rotation_z(PI/4);
+  Matrix full_quarter = rotation_z(PI/2);
+  Tuple p = Point(0, 1, 0);
+  REQUIRE(half_quarter * p == Point(-sqrt(2)/2, sqrt(2)/2, 0));
+  REQUIRE(full_quarter * p == Point(-1, 0, 0));
+}

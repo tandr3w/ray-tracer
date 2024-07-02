@@ -137,6 +137,45 @@ Matrix scaling(float x, float y, float z) {
     return Matrix(size, result);
 };
 
+Matrix rotation_x(float radians){
+    int size = 4;
+    std::vector<float> result(size*size, 0);
+    result[matrix_flatten(size, 0, 0)] = 1;
+    result[matrix_flatten(size, 1, 1)] = cos(radians);
+    result[matrix_flatten(size, 1, 2)] = -sin(radians);
+    result[matrix_flatten(size, 2, 1)] = sin(radians);
+    result[matrix_flatten(size, 2, 2)] = cos(radians);
+    result[matrix_flatten(size, 3, 3)] = 1;
+    return Matrix(size, result);
+}
+
+Matrix rotation_y(float radians){
+    int size = 4;
+    std::vector<float> result(size*size, 0);
+    result[matrix_flatten(size, 0, 0)] = cos(radians);
+    result[matrix_flatten(size, 0, 2)] = sin(radians);
+    result[matrix_flatten(size, 1, 1)] = 1;
+    result[matrix_flatten(size, 2, 0)] = -sin(radians);
+    result[matrix_flatten(size, 2, 2)] = cos(radians);
+    result[matrix_flatten(size, 3, 3)] = 1;
+
+    return Matrix(size, result);
+}
+
+Matrix rotation_z(float radians){
+    int size = 4;
+    std::vector<float> result(size*size, 0);
+    result[matrix_flatten(size, 0, 0)] = cos(radians);
+    result[matrix_flatten(size, 1, 0)] = sin(radians);
+    result[matrix_flatten(size, 2, 2)] = 1;
+    result[matrix_flatten(size, 0, 1)] = -sin(radians);
+    result[matrix_flatten(size, 1, 1)] = cos(radians);
+    result[matrix_flatten(size, 3, 3)] = 1;
+
+    return Matrix(size, result);
+}
+
+
 
 bool operator==(const Matrix& lhs, const Matrix& rhs){
     if (lhs.size != rhs.size){
