@@ -114,7 +114,7 @@ Matrix inverse(Matrix& m){
     return Matrix(m.size, result);
 }
 
-Matrix translation(int x, int y, int z) {
+Matrix translation(float x, float y, float z) {
     int size = 4;
     std::vector<float> result(size*size, 0);
     for (int i=0; i<size; i++){
@@ -123,6 +123,17 @@ Matrix translation(int x, int y, int z) {
     result[matrix_flatten(size, 0, 3)] = x;
     result[matrix_flatten(size, 1, 3)] = y;
     result[matrix_flatten(size, 2, 3)] = z;
+    return Matrix(size, result);
+};
+
+Matrix scaling(float x, float y, float z) {
+    int size = 4;
+    std::vector<float> result(size*size, 0);
+    result[matrix_flatten(size, 0, 0)] = x;
+    result[matrix_flatten(size, 1, 1)] = y;
+    result[matrix_flatten(size, 2, 2)] = z;
+    result[matrix_flatten(size, 3, 3)] = 1;
+
     return Matrix(size, result);
 };
 
