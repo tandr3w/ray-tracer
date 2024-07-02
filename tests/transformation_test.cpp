@@ -84,3 +84,20 @@ TEST_CASE("Shearing"){
   transform = shearing(0, 0, 0, 0, 0, 1);
   REQUIRE(transform * p == Point(2, 3, 7));
 }
+
+TEST_CASE("Chaining Transformations"){
+  Tuple p = Point(1, 0, 1);
+  Matrix A = rotation_x(PI/2);
+  Matrix B = scaling(5, 5, 5);
+  Matrix C = translation(10, 5, 7);
+
+  Tuple p1 = A * p;
+  Tuple p2 = B * p1;
+  Tuple p3 = C * p2;
+
+  REQUIRE(p1 == Point(1, -1, 0));
+  REQUIRE(p2 == Point(5, -5, 0));
+  REQUIRE(p3 == Point(15, 0, 7));
+
+  REQUIRE((C * B * A) * p == Point(15, 0, 7));
+}

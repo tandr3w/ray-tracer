@@ -14,4 +14,6 @@ add_test( [==[Z Rotation]==] [==[C:/Users/every/OneDrive/Documents/My Stuff/Prog
 set_tests_properties( [==[Z Rotation]==] PROPERTIES WORKING_DIRECTORY [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build]==])
 add_test( Shearing [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test5.exe]==] Shearing  )
 set_tests_properties( Shearing PROPERTIES WORKING_DIRECTORY [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build]==])
-set( test5_TESTS Translation [==[Translation Does Not Affect Vectors]==] Scaling Reflection [==[X Rotation]==] [==[Y Rotation]==] [==[Z Rotation]==] Shearing)
+add_test( [==[Chaining Transformations]==] [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test5.exe]==] [==[Chaining Transformations]==]  )
+set_tests_properties( [==[Chaining Transformations]==] PROPERTIES WORKING_DIRECTORY [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build]==])
+set( test5_TESTS Translation [==[Translation Does Not Affect Vectors]==] Scaling Reflection [==[X Rotation]==] [==[Y Rotation]==] [==[Z Rotation]==] Shearing [==[Chaining Transformations]==])
