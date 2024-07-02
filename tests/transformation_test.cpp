@@ -63,3 +63,24 @@ TEST_CASE("Z Rotation"){
   REQUIRE(half_quarter * p == Point(-sqrt(2)/2, sqrt(2)/2, 0));
   REQUIRE(full_quarter * p == Point(-1, 0, 0));
 }
+
+TEST_CASE("Shearing"){
+  Matrix transform = shearing(1, 0, 0, 0, 0, 0);
+  Tuple p = Point(2, 3, 4);
+  REQUIRE(transform * p == Point(5, 3, 4));
+
+  transform = shearing(0, 1, 0, 0, 0, 0);
+  REQUIRE(transform * p == Point(6, 3, 4));
+
+  transform = shearing(0, 0, 1, 0, 0, 0);
+  REQUIRE(transform * p == Point(2, 5, 4));
+
+  transform = shearing(0, 0, 0, 1, 0, 0);
+  REQUIRE(transform * p == Point(2, 7, 4));
+
+  transform = shearing(0, 0, 0, 0, 1, 0);
+  REQUIRE(transform * p == Point(2, 3, 6));
+
+  transform = shearing(0, 0, 0, 0, 0, 1);
+  REQUIRE(transform * p == Point(2, 3, 7));
+}

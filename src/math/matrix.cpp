@@ -175,6 +175,22 @@ Matrix rotation_z(float radians){
     return Matrix(size, result);
 }
 
+Matrix shearing(float xy, float xz, float yx, float yz, float zx, float zy){
+    int size = 4;
+    std::vector<float> result(size*size, 0);
+    result[matrix_flatten(size, 0, 0)] = 1;
+    result[matrix_flatten(size, 0, 1)] = xy;
+    result[matrix_flatten(size, 0, 2)] = xz;
+    result[matrix_flatten(size, 1, 0)] = yx;
+    result[matrix_flatten(size, 1, 1)] = 1;
+    result[matrix_flatten(size, 1, 2)] = yz;
+    result[matrix_flatten(size, 2, 0)] = zx;
+    result[matrix_flatten(size, 2, 1)] = zy;
+    result[matrix_flatten(size, 2, 2)] = 1;
+    result[matrix_flatten(size, 3, 3)] = 1;
+
+    return Matrix(size, result);
+}
 
 
 bool operator==(const Matrix& lhs, const Matrix& rhs){
