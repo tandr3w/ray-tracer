@@ -1,5 +1,5 @@
-if(EXISTS "C:/Users/every/OneDrive/Documents/Programming/raytracer/build/test2-b12d07c_tests.cmake")
-  include("C:/Users/every/OneDrive/Documents/Programming/raytracer/build/test2-b12d07c_tests.cmake")
+if(EXISTS "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test2-b12d07c_tests.cmake")
+  include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test2-b12d07c_tests.cmake")
 else()
   add_test(test2_NOT_BUILT-b12d07c test2_NOT_BUILT-b12d07c)
 endif()

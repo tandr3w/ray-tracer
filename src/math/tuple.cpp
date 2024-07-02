@@ -14,7 +14,7 @@ Tuple::Tuple(float _x, float _y, float _z, float _w) {
     w = _w;
 }
 
-int Tuple::getByIndex(int i) const{
+float Tuple::getByIndex(int i) const{
     assert(i < 4);
     switch(i){
         case 0:
@@ -25,10 +25,12 @@ int Tuple::getByIndex(int i) const{
             return z;
         case 3:
             return w;
+        default:
+            return 0;
     }
 }
 
-void Tuple::setByIndex(int i, int val){
+void Tuple::setByIndex(int i, float val){
     assert(i < 4);
     switch(i){
         case 0:

@@ -1,23 +1,743 @@
-Start testing: Apr 01 15:31 Eastern Daylight Time
+Start testing: Jul 02 16:20 Eastern Daylight Time
 ----------------------------------------------------------
-35/35 Testing: Inverse Matrix
-35/35 Test: Inverse Matrix
-Command: "C:/Users/every/OneDrive/Documents/Programming/raytracer/build/Debug/test4.exe" "Inverse Matrix"
-Directory: C:/Users/every/OneDrive/Documents/Programming/raytracer/build
-"Inverse Matrix" start time: Apr 01 15:31 Eastern Daylight Time
+1/37 Testing: Tuple 1
+1/37 Test: Tuple 1
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple 1"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple 1" start time: Jul 02 16:20 Eastern Daylight Time
 Output:
 ----------------------------------------------------------
-Filters: "Inverse Matrix"
-Randomness seeded to: 753829069
+Filters: "Tuple 1"
+Randomness seeded to: 7959026
 ===============================================================================
-All tests passed (9 assertions in 1 test case)
+All tests passed (6 assertions in 1 test case)
 
 <end of output>
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"Inverse Matrix" end time: Apr 01 15:31 Eastern Daylight Time
+"Tuple 1" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple 1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/37 Testing: Tuple 2
+2/37 Test: Tuple 2
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple 2"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple 2" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple 2"
+Randomness seeded to: 3821859927
+===============================================================================
+All tests passed (6 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple 2" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple 2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/37 Testing: Point
+3/37 Test: Point
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Point"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Point" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Point"
+Randomness seeded to: 1187562092
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Point" end time: Jul 02 16:20 Eastern Daylight Time
+"Point" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/37 Testing: Vector
+4/37 Test: Vector
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Vector"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Vector" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Vector"
+Randomness seeded to: 998110144
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Vector" end time: Jul 02 16:20 Eastern Daylight Time
+"Vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/37 Testing: Tuple Addition
+5/37 Test: Tuple Addition
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Addition"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Addition" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Addition"
+Randomness seeded to: 1923785243
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Addition" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Addition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/37 Testing: Tuple Subtraction
+6/37 Test: Tuple Subtraction
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Subtraction"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Subtraction" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Subtraction"
+Randomness seeded to: 450702496
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Subtraction" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Subtraction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/37 Testing: Tuple Negation
+7/37 Test: Tuple Negation
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Negation"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Negation" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Negation"
+Randomness seeded to: 3502428930
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Negation" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Negation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/37 Testing: Tuple Multiplication
+8/37 Test: Tuple Multiplication
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Multiplication"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Multiplication" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Multiplication"
+Randomness seeded to: 214658884
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Multiplication" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Multiplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/37 Testing: Tuple Division
+9/37 Test: Tuple Division
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Division"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Division" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Division"
+Randomness seeded to: 198251995
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Division" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Division" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/37 Testing: Tuple Magnitude
+10/37 Test: Tuple Magnitude
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Magnitude"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Magnitude" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Magnitude"
+Randomness seeded to: 361842787
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Magnitude" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Magnitude" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/37 Testing: Tuple Normalization
+11/37 Test: Tuple Normalization
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Tuple Normalization"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Tuple Normalization" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Tuple Normalization"
+Randomness seeded to: 3480306970
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Tuple Normalization" end time: Jul 02 16:20 Eastern Daylight Time
+"Tuple Normalization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/37 Testing: Dot Product
+12/37 Test: Dot Product
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Dot Product"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Dot Product" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Dot Product"
+Randomness seeded to: 2130318266
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Dot Product" end time: Jul 02 16:20 Eastern Daylight Time
+"Dot Product" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/37 Testing: Cross Product
+13/37 Test: Cross Product
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Cross Product"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Cross Product" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Cross Product"
+Randomness seeded to: 3649251914
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Cross Product" end time: Jul 02 16:20 Eastern Daylight Time
+"Cross Product" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/37 Testing: Get By Index
+14/37 Test: Get By Index
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Get By Index"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Get By Index" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Get By Index"
+Randomness seeded to: 3436972799
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Get By Index" end time: Jul 02 16:20 Eastern Daylight Time
+"Get By Index" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/37 Testing: Set By Index
+15/37 Test: Set By Index
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test1.exe" "Set By Index"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Set By Index" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Set By Index"
+Randomness seeded to: 592275300
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Set By Index" end time: Jul 02 16:20 Eastern Daylight Time
+"Set By Index" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/37 Testing: Color
+16/37 Test: Color
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test2.exe" "Color"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Color" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Color"
+Randomness seeded to: 1209720253
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Color" end time: Jul 02 16:20 Eastern Daylight Time
+"Color" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/37 Testing: Adding Colors
+17/37 Test: Adding Colors
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test2.exe" "Adding Colors"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Adding Colors" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Adding Colors"
+Randomness seeded to: 3721389237
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Adding Colors" end time: Jul 02 16:20 Eastern Daylight Time
+"Adding Colors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/37 Testing: Subtracting Colors
+18/37 Test: Subtracting Colors
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test2.exe" "Subtracting Colors"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Subtracting Colors" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Subtracting Colors"
+Randomness seeded to: 3695547859
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Subtracting Colors" end time: Jul 02 16:20 Eastern Daylight Time
+"Subtracting Colors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/37 Testing: Color x Scalar
+19/37 Test: Color x Scalar
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test2.exe" "Color x Scalar"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Color x Scalar" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Color x Scalar"
+Randomness seeded to: 4152601595
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Color x Scalar" end time: Jul 02 16:20 Eastern Daylight Time
+"Color x Scalar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/37 Testing: Multiplying Colors
+20/37 Test: Multiplying Colors
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test2.exe" "Multiplying Colors"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Multiplying Colors" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Multiplying Colors"
+Randomness seeded to: 3205425493
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Multiplying Colors" end time: Jul 02 16:20 Eastern Daylight Time
+"Multiplying Colors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/37 Testing: Canvas
+21/37 Test: Canvas
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test3.exe" "Canvas"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Canvas" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Canvas"
+Randomness seeded to: 3206579286
+===============================================================================
+All tests passed (10 assertions in 1 test case)
+
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"Canvas" end time: Jul 02 16:20 Eastern Daylight Time
+"Canvas" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/37 Testing: Writing To Canvas
+22/37 Test: Writing To Canvas
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test3.exe" "Writing To Canvas"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Writing To Canvas" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Writing To Canvas"
+Randomness seeded to: 159063528
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Writing To Canvas" end time: Jul 02 16:20 Eastern Daylight Time
+"Writing To Canvas" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/37 Testing: Converting to PPM
+23/37 Test: Converting to PPM
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test3.exe" "Converting to PPM"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Converting to PPM" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Converting to PPM"
+Randomness seeded to: 3837242213
+===============================================================================
+All tests passed (6 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Converting to PPM" end time: Jul 02 16:20 Eastern Daylight Time
+"Converting to PPM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/37 Testing: Matrix
+24/37 Test: Matrix
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Matrix"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Matrix" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Matrix"
+Randomness seeded to: 1088359596
+===============================================================================
+All tests passed (14 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Matrix" end time: Jul 02 16:20 Eastern Daylight Time
+"Matrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/37 Testing: Matrix Equality
+25/37 Test: Matrix Equality
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Matrix Equality"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Matrix Equality" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Matrix Equality"
+Randomness seeded to: 3721836188
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Matrix Equality" end time: Jul 02 16:20 Eastern Daylight Time
+"Matrix Equality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/37 Testing: Matrix Multiplication
+26/37 Test: Matrix Multiplication
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Matrix Multiplication"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Matrix Multiplication" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Matrix Multiplication"
+Randomness seeded to: 747926206
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Matrix Multiplication" end time: Jul 02 16:20 Eastern Daylight Time
+"Matrix Multiplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/37 Testing: Matrix & Tuple Multiplication
+27/37 Test: Matrix & Tuple Multiplication
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Matrix & Tuple Multiplication"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Matrix & Tuple Multiplication" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Matrix & Tuple Multiplication"
+Randomness seeded to: 4272016770
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Matrix & Tuple Multiplication" end time: Jul 02 16:20 Eastern Daylight Time
+"Matrix & Tuple Multiplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/37 Testing: Identity Matrix
+28/37 Test: Identity Matrix
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Identity Matrix"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Identity Matrix" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Identity Matrix"
+Randomness seeded to: 2481479227
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Identity Matrix" end time: Jul 02 16:20 Eastern Daylight Time
+"Identity Matrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/37 Testing: Transpose Matrix
+29/37 Test: Transpose Matrix
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Transpose Matrix"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Transpose Matrix" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Transpose Matrix"
+Randomness seeded to: 1976778326
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Transpose Matrix" end time: Jul 02 16:20 Eastern Daylight Time
+"Transpose Matrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/37 Testing: Matrix Determinant
+30/37 Test: Matrix Determinant
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Matrix Determinant"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Matrix Determinant" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Matrix Determinant"
+Randomness seeded to: 984578519
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Matrix Determinant" end time: Jul 02 16:20 Eastern Daylight Time
+"Matrix Determinant" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/37 Testing: Submatrix
+31/37 Test: Submatrix
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Submatrix"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Submatrix" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Submatrix"
+Randomness seeded to: 2859710917
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Submatrix" end time: Jul 02 16:20 Eastern Daylight Time
+"Submatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/37 Testing: Minor & Cofactor
+32/37 Test: Minor & Cofactor
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Minor & Cofactor"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Minor & Cofactor" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Minor & Cofactor"
+Randomness seeded to: 2309905987
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Minor & Cofactor" end time: Jul 02 16:20 Eastern Daylight Time
+"Minor & Cofactor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/37 Testing: Large Matrix Determinants
+33/37 Test: Large Matrix Determinants
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Large Matrix Determinants"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Large Matrix Determinants" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Large Matrix Determinants"
+Randomness seeded to: 2888475059
+===============================================================================
+All tests passed (9 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Large Matrix Determinants" end time: Jul 02 16:20 Eastern Daylight Time
+"Large Matrix Determinants" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/37 Testing: Testing for Invertibility
+34/37 Test: Testing for Invertibility
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Testing for Invertibility"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Testing for Invertibility" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Testing for Invertibility"
+Randomness seeded to: 3438556956
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Testing for Invertibility" end time: Jul 02 16:20 Eastern Daylight Time
+"Testing for Invertibility" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/37 Testing: Inverse Matrix
+35/37 Test: Inverse Matrix
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test4.exe" "Inverse Matrix"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Inverse Matrix" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Inverse Matrix"
+Randomness seeded to: 1381807130
+===============================================================================
+All tests passed (9 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Inverse Matrix" end time: Jul 02 16:20 Eastern Daylight Time
 "Inverse Matrix" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 01 15:31 Eastern Daylight Time
+36/37 Testing: Matrix Transformation
+36/37 Test: Matrix Transformation
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test5.exe" "Matrix Transformation"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Matrix Transformation" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Matrix Transformation"
+Randomness seeded to: 1295603634
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Matrix Transformation" end time: Jul 02 16:20 Eastern Daylight Time
+"Matrix Transformation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/37 Testing: Translation Does Not Affect Vectors
+37/37 Test: Translation Does Not Affect Vectors
+Command: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test5.exe" "Translation Does Not Affect Vectors"
+Directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
+"Translation Does Not Affect Vectors" start time: Jul 02 16:20 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Filters: "Translation Does Not Affect Vectors"
+Randomness seeded to: 2389145390
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Translation Does Not Affect Vectors" end time: Jul 02 16:20 Eastern Daylight Time
+"Translation Does Not Affect Vectors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 02 16:20 Eastern Daylight Time

@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Catch2WithMain.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Catch2Maind</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Catch2WithMain.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Catch2Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Catch2WithMain.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Catch2Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Catch2WithMain.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Catch2Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -130,10 +130,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,7 +146,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -164,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -197,10 +197,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\..;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,11 +212,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/Programming/raytracer/lib/Catch2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/lib/Catch2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/every/OneDrive/Documents/Programming/raytracer -BC:/Users/every/OneDrive/Documents/Programming/raytracer/build --check-stamp-file C:/Users/every/OneDrive/Documents/Programming/raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer" "-BC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build" --check-stamp-file "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/Programming/raytracer/lib/Catch2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/lib/Catch2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/every/OneDrive/Documents/Programming/raytracer -BC:/Users/every/OneDrive/Documents/Programming/raytracer/build --check-stamp-file C:/Users/every/OneDrive/Documents/Programming/raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer" "-BC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build" --check-stamp-file "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/Programming/raytracer/lib/Catch2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/lib/Catch2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/every/OneDrive/Documents/Programming/raytracer -BC:/Users/every/OneDrive/Documents/Programming/raytracer/build --check-stamp-file C:/Users/every/OneDrive/Documents/Programming/raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer" "-BC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build" --check-stamp-file "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/Programming/raytracer/lib/Catch2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/lib/Catch2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/every/OneDrive/Documents/Programming/raytracer -BC:/Users/every/OneDrive/Documents/Programming/raytracer/build --check-stamp-file C:/Users/every/OneDrive/Documents/Programming/raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer" "-BC:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build" --check-stamp-file "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/lib/Catch2/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,22 +263,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\CMake\CatchMiscFunctions.cmake;C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\catch_user_config.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\every\OneDrive\Documents\Programming\raytracer\lib\Catch2\src\catch2\internal\catch_main.cpp" />
+    <ClCompile Include="C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\lib\Catch2\src\catch2\internal\catch_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\every\OneDrive\Documents\Programming\raytracer\build\ZERO_CHECK.vcxproj">
-      <Project>{6F595E48-89FA-3D4A-A504-7C49D464DDA2}</Project>
+    <ProjectReference Include="C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\ZERO_CHECK.vcxproj">
+      <Project>{739F8785-CB0C-3F20-8089-AFEDCF03CEDA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\every\OneDrive\Documents\Programming\raytracer\build\lib\Catch2\src\Catch2.vcxproj">
+    <ProjectReference Include="C:\Users\every\OneDrive\Documents\My Stuff\Programming\Raytracer\build\lib\Catch2\src\Catch2.vcxproj">
       <Project>{8d538cbe-01bf-4a2e-a98a-6c368fdf13d7}</Project>
       <Name>Catch2</Name>
     </ProjectReference>

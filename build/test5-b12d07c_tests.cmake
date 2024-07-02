@@ -1,0 +1,5 @@
+add_test( [==[Matrix Transformation]==] [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test5.exe]==] [==[Matrix Transformation]==]  )
+set_tests_properties( [==[Matrix Transformation]==] PROPERTIES WORKING_DIRECTORY [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build]==])
+add_test( [==[Translation Does Not Affect Vectors]==] [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/Debug/test5.exe]==] [==[Translation Does Not Affect Vectors]==]  )
+set_tests_properties( [==[Translation Does Not Affect Vectors]==] PROPERTIES WORKING_DIRECTORY [==[C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build]==])
+set( test5_TESTS [==[Matrix Transformation]==] [==[Translation Does Not Affect Vectors]==])

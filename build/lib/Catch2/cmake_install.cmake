@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/every/OneDrive/Documents/Programming/raytracer/lib/Catch2
+# Install script for directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/lib/Catch2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/every/OneDrive/Documents/Programming/raytracer/build/lib/Catch2/src/cmake_install.cmake")
+  include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/lib/Catch2/src/cmake_install.cmake")
 
 endif()
 

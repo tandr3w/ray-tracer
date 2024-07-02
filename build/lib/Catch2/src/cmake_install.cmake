@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/every/OneDrive/Documents/Programming/raytracer/lib/Catch2/src
+# Install script for directory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/lib/Catch2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

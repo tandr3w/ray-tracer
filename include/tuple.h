@@ -7,8 +7,8 @@ class Tuple {
         Tuple(float x, float y, float z, float w);
         bool isPoint() const;
         bool isVector() const;
-        int getByIndex(int i) const;
-        void setByIndex(int i, int val);
+        float getByIndex(int i) const;
+        void setByIndex(int i, float val);
 
         float x, y, z, w;
 };

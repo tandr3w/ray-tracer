@@ -26,8 +26,8 @@ events:
       Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/11/2024 3:57:37 PM.
-      Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Build started 7/2/2024 3:52:39 PM.
+      Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdC.tlog\\".
@@ -38,7 +38,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -46,13 +46,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.70
+      Time Elapsed 00:00:01.69
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/3.29.0-rc3/CompilerIdC/CompilerIdC.exe
+        C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/3.29.0-rc3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -80,8 +80,8 @@ events:
       Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/11/2024 3:57:39 PM.
-      Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Build started 7/2/2024 3:52:41 PM.
+      Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -92,7 +92,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -100,13 +100,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.23
+      Time Elapsed 00:00:01.15
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -114,7 +114,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/3.29.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/3.29.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,47 +125,47 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-nsrk8k"
-      binary: "C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-nsrk8k"
+      source: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-k99pao"
+      binary: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-k99pao"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-nsrk8k'
+        Change Dir: 'C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-k99pao'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c0d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f3876.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/11/2024 3:57:41 PM.
-        Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsrk8k\\cmTC_7c0d3.vcxproj" on node 1 (default targets).
+        Build started 7/2/2024 3:52:43 PM.
+        Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k99pao\\cmTC_f3876.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_7c0d3.dir\\Debug\\".
-          Creating directory "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsrk8k\\Debug\\".
-          Creating directory "cmTC_7c0d3.dir\\Debug\\cmTC_7c0d3.tlog\\".
+          Creating directory "cmTC_f3876.dir\\Debug\\".
+          Creating directory "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k99pao\\Debug\\".
+          Creating directory "cmTC_f3876.dir\\Debug\\cmTC_f3876.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7c0d3.dir\\Debug\\cmTC_7c0d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f3876.dir\\Debug\\cmTC_f3876.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c0d3.dir\\Debug\\\\" /Fd"cmTC_7c0d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3876.dir\\Debug\\\\" /Fd"cmTC_f3876.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c0d3.dir\\Debug\\\\" /Fd"cmTC_7c0d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3876.dir\\Debug\\\\" /Fd"cmTC_f3876.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsrk8k\\Debug\\cmTC_7c0d3.exe" /INCREMENTAL /ILK:"cmTC_7c0d3.dir\\Debug\\cmTC_7c0d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-nsrk8k/Debug/cmTC_7c0d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-nsrk8k/Debug/cmTC_7c0d3.lib" /MACHINE:X64  /machine:x64 cmTC_7c0d3.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_7c0d3.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsrk8k\\Debug\\cmTC_7c0d3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k99pao\\Debug\\cmTC_f3876.exe" /INCREMENTAL /ILK:"cmTC_f3876.dir\\Debug\\cmTC_f3876.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-k99pao/Debug/cmTC_f3876.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-k99pao/Debug/cmTC_f3876.lib" /MACHINE:X64  /machine:x64 cmTC_f3876.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f3876.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k99pao\\Debug\\cmTC_f3876.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_7c0d3.dir\\Debug\\cmTC_7c0d3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_7c0d3.dir\\Debug\\cmTC_7c0d3.tlog\\cmTC_7c0d3.lastbuildstate".
-        Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsrk8k\\cmTC_7c0d3.vcxproj" (default targets).
+          Deleting file "cmTC_f3876.dir\\Debug\\cmTC_f3876.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f3876.dir\\Debug\\cmTC_f3876.tlog\\cmTC_f3876.lastbuildstate".
+        Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k99pao\\cmTC_f3876.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:02.06
+        Time Elapsed 00:00:01.29
         
       exitCode: 0
   -
@@ -205,47 +205,47 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-9c2ulj"
-      binary: "C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-9c2ulj"
+      source: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-g3ggmb"
+      binary: "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-g3ggmb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-9c2ulj'
+        Change Dir: 'C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-g3ggmb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_287f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6574.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/11/2024 3:57:44 PM.
-        Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c2ulj\\cmTC_287f6.vcxproj" on node 1 (default targets).
+        Build started 7/2/2024 3:52:45 PM.
+        Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g3ggmb\\cmTC_d6574.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_287f6.dir\\Debug\\".
-          Creating directory "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c2ulj\\Debug\\".
-          Creating directory "cmTC_287f6.dir\\Debug\\cmTC_287f6.tlog\\".
+          Creating directory "cmTC_d6574.dir\\Debug\\".
+          Creating directory "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g3ggmb\\Debug\\".
+          Creating directory "cmTC_d6574.dir\\Debug\\cmTC_d6574.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_287f6.dir\\Debug\\cmTC_287f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_d6574.dir\\Debug\\cmTC_d6574.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_287f6.dir\\Debug\\\\" /Fd"cmTC_287f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6574.dir\\Debug\\\\" /Fd"cmTC_d6574.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_287f6.dir\\Debug\\\\" /Fd"cmTC_287f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6574.dir\\Debug\\\\" /Fd"cmTC_d6574.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c2ulj\\Debug\\cmTC_287f6.exe" /INCREMENTAL /ILK:"cmTC_287f6.dir\\Debug\\cmTC_287f6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-9c2ulj/Debug/cmTC_287f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/every/OneDrive/Documents/Programming/raytracer/build/CMakeFiles/CMakeScratch/TryCompile-9c2ulj/Debug/cmTC_287f6.lib" /MACHINE:X64  /machine:x64 cmTC_287f6.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_287f6.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c2ulj\\Debug\\cmTC_287f6.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g3ggmb\\Debug\\cmTC_d6574.exe" /INCREMENTAL /ILK:"cmTC_d6574.dir\\Debug\\cmTC_d6574.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-g3ggmb/Debug/cmTC_d6574.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/CMakeFiles/CMakeScratch/TryCompile-g3ggmb/Debug/cmTC_d6574.lib" /MACHINE:X64  /machine:x64 cmTC_d6574.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d6574.vcxproj -> C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g3ggmb\\Debug\\cmTC_d6574.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_287f6.dir\\Debug\\cmTC_287f6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_287f6.dir\\Debug\\cmTC_287f6.tlog\\cmTC_287f6.lastbuildstate".
-        Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\Programming\\raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c2ulj\\cmTC_287f6.vcxproj" (default targets).
+          Deleting file "cmTC_d6574.dir\\Debug\\cmTC_d6574.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d6574.dir\\Debug\\cmTC_d6574.tlog\\cmTC_d6574.lastbuildstate".
+        Done Building Project "C:\\Users\\every\\OneDrive\\Documents\\My Stuff\\Programming\\Raytracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g3ggmb\\cmTC_d6574.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.72
+        Time Elapsed 00:00:01.23
         
       exitCode: 0
   -

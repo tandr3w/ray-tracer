@@ -6,7 +6,9 @@
 // Split matrix functions into 4x4, 3x3, 2x2, etc. for more code clarity
 // Turn things that should be constants into constants
 
-// Build: cmake .. && cmake --build . && ctest -C Debug
+// Build: 
+// cd build
+// cmake .. && cmake --build . && ctest -C Debug
 
 int main(){
     const auto tuple = new Tuple(1.2, 1.5, 1.7, 0.0);

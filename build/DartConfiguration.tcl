@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/every/OneDrive/Documents/Programming/raytracer
-BuildDirectory: C:/Users/every/OneDrive/Documents/Programming/raytracer/build
+SourceDirectory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer
+BuildDirectory: C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/every/OneDrive/Documents/Programming/raytracer"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

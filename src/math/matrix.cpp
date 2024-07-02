@@ -45,7 +45,7 @@ float determinant(Matrix& m){
                m.elements[matrix_flatten(2, 1, 0)] *  m.elements[matrix_flatten(2, 0, 1)];
     }
     else {
-        int result = 0;
+        float result = 0;
         for (int j=0; j<m.size; j++){
             result += m.elements[matrix_flatten(m.size, 0, j)] * cofactor(m, 0, j);
         }
@@ -90,7 +90,7 @@ float cofactor(Matrix& m, int x, int y){
     if (m.size == 1){
         return NULL;
     }
-    int res = minor(m, x, y);
+    float res = minor(m, x, y);
     if ((x + y) % 2 == 0){
         return res;
     }
@@ -114,6 +114,18 @@ Matrix inverse(Matrix& m){
     return Matrix(m.size, result);
 }
 
+Matrix translation(int x, int y, int z) {
+    int size = 4;
+    std::vector<float> result(size*size, 0);
+    for (int i=0; i<size; i++){
+        result[matrix_flatten(size, i, i)] = 1;
+    }
+    result[matrix_flatten(size, 0, 3)] = x;
+    result[matrix_flatten(size, 1, 3)] = y;
+    result[matrix_flatten(size, 2, 3)] = z;
+    return Matrix(size, result);
+};
+
 
 bool operator==(const Matrix& lhs, const Matrix& rhs){
     if (lhs.size != rhs.size){
@@ -129,17 +141,6 @@ bool operator==(const Matrix& lhs, const Matrix& rhs){
     return true;
 }
 
-// Matrix operator+(const Matrix& lhs, const Matrix& rhs){
-
-// }
-
-// Matrix operator-(const Matrix& lhs, const Matrix& rhs){
-
-// }
-
-// Matrix operator-(const Matrix& t){
-
-// }
 
 Matrix operator*(const Matrix& lhs, const Matrix& rhs){
     assert(lhs.size == rhs.size);
@@ -161,7 +162,7 @@ Matrix operator*(const Matrix& lhs, const Matrix& rhs){
 
 Tuple operator*(const Matrix& lhs, const Tuple& rhs){
     assert(lhs.size == 4);
-    int product = 0;
+    float product = 0;
     Tuple result = Tuple(0, 0, 0, 0);
     for (int i=0; i<4; i++){
         for (int j=0; j<4; j++){
@@ -172,7 +173,3 @@ Tuple operator*(const Matrix& lhs, const Tuple& rhs){
     }
     return result;
 }
-
-// Matrix operator/(const Matrix& lhs, const float scale){
-
-// }
