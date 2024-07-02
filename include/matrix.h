@@ -33,8 +33,8 @@ bool invertible(Matrix& m);
 
 Matrix inverse(Matrix& m);
 
-Matrix translation(int x, int y, int z);
-Matrix scaling(int x, int y, int z);
+Matrix translation(float x, float y, float z);
+Matrix scaling(float x, float y, float z);
 
 Matrix operator*(const Matrix& lhs, const Matrix& rhs);
 Tuple operator*(const Matrix& lhs, const Tuple& rhs);
