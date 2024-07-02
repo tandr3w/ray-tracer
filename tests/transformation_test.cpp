@@ -30,3 +30,9 @@ TEST_CASE("Scaling") {
   Matrix inv = inverse(transform);
   REQUIRE(inv * v == Vector(-2, 2, 2));
 }
+
+TEST_CASE("Reflection"){
+  Matrix transform = scaling(-1, 1, 1);
+  Tuple p = Point(2, 3, 4);
+  REQUIRE(transform * p == Point(-2, 3, 4));
+}

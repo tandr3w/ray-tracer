@@ -1,7 +1,7 @@
 Tuple 1 1
 Tuple 2 1
-Point 5 0.0043153
-Vector 5 0.00451752
+Point 7 0.00325846
+Vector 7 0.00312896
 Tuple 0 1
 Tuple 0 1
 Tuple 0 1
@@ -13,27 +13,27 @@ Dot 0 1
 Cross 0 1
 Get 0 0
 Set 0 0
-Color 1 0.0269761
+Color 1 0.0212403
 Adding 0 1
 Subtracting 0 1
-Color 1 0.0269761
+Color 1 0.0212403
 Multiplying 0 1
-Canvas 5 0.00520454
+Canvas 7 0.00385247
 Writing 0 0
 Converting 0 0
-Matrix 1 0.0342561
-Matrix 1 0.0342561
-Matrix 1 0.0342561
-Matrix 1 0.0342561
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
 Identity 0 1
 Transpose 0 1
-Matrix 1 0.0342561
-Submatrix 5 0.00424426
+Matrix 1 0.0235462
+Submatrix 7 0.00321643
 Minor 0 0
 Large 0 0
 Testing 0 0
 Inverse 0 1
-Matrix 1 0.0342561
+Matrix 1 0.0235462
 Tuple 1 1
 Tuple 2 1
 Tuple 0 1
@@ -49,21 +49,21 @@ Get 0 0
 Set 0 0
 Adding 0 1
 Subtracting 0 1
-Color 1 0.0269761
+Color 1 0.0212403
 Multiplying 0 1
 Writing 0 0
 Converting 0 0
-Matrix 1 0.0342561
-Matrix 1 0.0342561
-Matrix 1 0.0342561
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
 Identity 0 1
 Transpose 0 1
-Matrix 1 0.0342561
+Matrix 1 0.0235462
 Minor 0 0
 Large 0 0
 Testing 0 0
 Inverse 0 1
-Matrix 1 0.0342561
+Matrix 1 0.0235462
 Tuple 1 1
 Tuple 2 1
 Tuple 0 1
@@ -79,21 +79,21 @@ Get 0 0
 Set 0 0
 Adding 0 1
 Subtracting 0 1
-Color 1 0.0269761
+Color 1 0.0212403
 Multiplying 0 1
 Writing 0 0
 Converting 0 0
-Matrix 1 0.0342561
-Matrix 1 0.0342561
-Matrix 1 0.0342561
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
 Identity 0 1
 Transpose 0 1
-Matrix 1 0.0342561
+Matrix 1 0.0235462
 Minor 0 0
 Large 0 0
 Testing 0 0
 Inverse 0 1
-Matrix 1 0.0342561
+Matrix 1 0.0235462
 Tuple 1 1
 Tuple 2 1
 Tuple 0 1
@@ -109,51 +109,112 @@ Get 0 0
 Set 0 0
 Adding 0 1
 Subtracting 0 1
-Color 1 0.0269761
+Color 1 0.0212403
 Multiplying 0 1
 Writing 0 0
 Converting 0 0
-Matrix 1 0.0342561
-Matrix 1 0.0342561
-Matrix 1 0.0342561
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
 Identity 0 1
 Transpose 0 1
-Matrix 1 0.0342561
+Matrix 1 0.0235462
 Minor 0 0
 Large 0 0
 Testing 0 0
 Inverse 0 1
-Matrix 1 0.0342561
-Translation 1 0.0211836
-Tuple 1 1 0.0284924
-Tuple 2 1 0.021967
-Tuple Addition 1 0.023153
-Tuple Subtraction 1 0.0219254
-Tuple Negation 1 0.0230647
-Tuple Multiplication 1 0.0192508
-Tuple Division 1 0.0250417
-Tuple Magnitude 1 0.0214814
-Tuple Normalization 1 0.0194823
-Dot Product 1 0.0200698
-Cross Product 1 0.0198809
-Get By Index 1 0.0212418
-Set By Index 1 0.019849
-Adding Colors 1 0.0225398
-Subtracting Colors 1 0.0253426
-Color x Scalar 1 0.0252546
-Multiplying Colors 1 0.0220888
-Writing To Canvas 1 0.0251713
-Converting to PPM 1 0.0387641
-Matrix Equality 1 0.0218018
-Matrix Multiplication 1 0.0213281
-Matrix & Tuple Multiplication 1 0.0218009
-Identity Matrix 1 0.0418078
-Transpose Matrix 1 0.021584
-Matrix Determinant 1 0.0206954
-Minor & Cofactor 1 0.0206431
-Large Matrix Determinants 1 0.0198586
-Testing for Invertibility 1 0.0224788
-Inverse Matrix 1 0.0253101
-Translation Does Not Affect Vectors 1 0.0234924
-Scaling 1 0.0252289
+Matrix 1 0.0235462
+Translation 1 0.02362
+Tuple 1 1
+Tuple 2 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Dot 0 1
+Cross 0 1
+Get 0 0
+Set 0 0
+Adding 0 1
+Subtracting 0 1
+Color 1 0.0212403
+Multiplying 0 1
+Writing 0 0
+Converting 0 0
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Identity 0 1
+Transpose 0 1
+Matrix 1 0.0235462
+Minor 0 0
+Large 0 0
+Testing 0 0
+Inverse 0 1
+Translation 1 0.02362
+Scaling 3 0.0090583
+Tuple 1 1
+Tuple 2 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Tuple 0 1
+Dot 0 1
+Cross 0 1
+Get 0 0
+Set 0 0
+Adding 0 1
+Subtracting 0 1
+Color 1 0.0212403
+Multiplying 0 1
+Writing 0 0
+Converting 0 0
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Matrix 1 0.0235462
+Identity 0 1
+Transpose 0 1
+Matrix 1 0.0235462
+Minor 0 0
+Large 0 0
+Testing 0 0
+Inverse 0 1
+Translation 1 0.02362
+Tuple 1 1 0.017656
+Tuple 2 1 0.0188523
+Tuple Addition 1 0.0215623
+Tuple Subtraction 1 0.0181194
+Tuple Negation 1 0.0204799
+Tuple Multiplication 1 0.0221231
+Tuple Division 1 0.0261183
+Tuple Magnitude 1 0.0186034
+Tuple Normalization 1 0.0255176
+Dot Product 1 0.0400773
+Cross Product 1 0.0322953
+Get By Index 1 0.0227993
+Set By Index 1 0.0244845
+Adding Colors 1 0.0357122
+Subtracting Colors 1 0.029008
+Color x Scalar 1 0.0202495
+Multiplying Colors 1 0.026349
+Writing To Canvas 1 0.0221314
+Converting to PPM 1 0.024021
+Matrix Equality 1 0.0213249
+Matrix Multiplication 1 0.0239315
+Matrix & Tuple Multiplication 1 0.0229478
+Identity Matrix 1 0.0242883
+Transpose Matrix 1 0.0200007
+Matrix Determinant 1 0.0195989
+Minor & Cofactor 1 0.0265514
+Large Matrix Determinants 1 0.0273686
+Testing for Invertibility 1 0.0242755
+Inverse Matrix 1 0.0283874
+Translation Does Not Affect Vectors 1 0.0241876
+Reflection 1 0.0300344
 ---
