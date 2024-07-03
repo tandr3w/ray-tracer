@@ -9,4 +9,5 @@ include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/
 include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test3-b12d07c_include.cmake")
 include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test4-b12d07c_include.cmake")
 include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test5-b12d07c_include.cmake")
+include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test6-b12d07c_include.cmake")
 subdirs("lib/Catch2")

@@ -9,7 +9,6 @@ class Tuple {
         bool isVector() const;
         float getByIndex(int i) const;
         void setByIndex(int i, float val);
-
         float x, y, z, w;
 };
 

@@ -6,6 +6,7 @@ add_library(math
             src/math/constants.cpp
             src/math/color.cpp
             src/math/matrix.cpp
+            src/math/ray.cpp
            )
 
 add_library(display 
@@ -46,3 +47,7 @@ catch_discover_tests(test4)
 add_executable(test5 tests/transformation_test.cpp)
 target_link_libraries(test5 math Catch2::Catch2WithMain)
 catch_discover_tests(test5)
+
+add_executable(test6 tests/ray_sphere_test.cpp)
+target_link_libraries(test6 math Catch2::Catch2WithMain)
+catch_discover_tests(test6)

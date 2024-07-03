@@ -10,9 +10,9 @@ class Matrix {
         Matrix(int _size);
         Matrix(int _size, std::vector<float> init);
         int size;
-        std::vector<float> elements;
         float get(int x, int y) const;
         void set(int x, int y, float val);
+        std::vector<float> elements;
 };
 
 int matrix_flatten(int height, int x, int y);
