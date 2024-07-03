@@ -9,6 +9,8 @@
 // Remove useless includes
 // Make capitalizations consistent
 // Fix type conversion warnings
+// Convert functions w/ classes as parameters to methods; don't use both at the same time like a dumbass
+// Add __str__ methods to all classes?
 
 // Build: 
 // cd build

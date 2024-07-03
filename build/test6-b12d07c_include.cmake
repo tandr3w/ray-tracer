@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test6-b12d07c_tests.cmake")
-  include("C:/Users/every/OneDrive/Documents/My Stuff/Programming/Raytracer/build/test6-b12d07c_tests.cmake")
-else()
-  add_test(test6_NOT_BUILT-b12d07c test6_NOT_BUILT-b12d07c)
-endif()

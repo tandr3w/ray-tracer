@@ -10,6 +10,7 @@ class Ray {
         Ray(Tuple origin, Tuple direction);
         Tuple origin;
         Tuple direction;
+        Tuple Position(float t);
 };
 
 #endif
