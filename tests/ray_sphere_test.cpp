@@ -126,3 +126,45 @@ TEST_CASE("Hit, sorted properly"){
     Intersection i = xs.hit().value();
     REQUIRE(i == i4);
 }
+
+TEST_CASE("Translating Rays"){
+    Ray r = Ray(Point(1, 2, 3), Vector(0, 1, 0));
+    Matrix m = translation(3, 4, 5);
+    Ray r2 = r.transform(m);
+    REQUIRE(r2.origin == Point(4, 6, 8));
+    REQUIRE(r2.direction == Vector(0, 1, 0));
+}
+
+TEST_CASE("Scaling Rays"){
+    Ray r = Ray(Point(1, 2, 3), Vector(0, 1, 0));
+    Matrix m = scaling(2, 3, 4);
+    Ray r2 = r.transform(m);
+    REQUIRE(r2.origin == Point(2, 6, 12));
+    REQUIRE(r2.direction == Vector(0, 3, 0));
+}
+
+TEST_CASE("Sphere Transformations"){
+    Sphere s = Sphere();
+    REQUIRE(s.transform == Matrix(4));
+    s.set_transform(translation(2, 3, 4));
+    REQUIRE(s.transform == translation(2, 3, 4));
+}
+
+TEST_CASE("Ray and Scaled Sphere Interactions"){
+    Ray r = Ray(Point(0, 0, -5), Vector(0, 0, 1));
+    Ray r2 = r.transform(inverse(scaling(2, 2, 2)));
+    Sphere s = Sphere();
+    s.set_transform(scaling(2, 2, 2));
+    Intersections xs = s.Intersect(r);
+    REQUIRE(xs.size() == 2);
+    REQUIRE(float_equal(xs[0].t, 3));
+    REQUIRE(float_equal(xs[1].t, 7));
+}
+
+TEST_CASE("Ray and Translated Sphere Interactions"){
+    Ray r = Ray(Point(0, 0, -5), Vector(0, 0, 1));
+    Sphere s = Sphere();
+    s.set_transform(translation(5, 0, 0));
+    Intersections xs = s.Intersect(r);
+    REQUIRE(xs.size() == 0);
+}

@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <tuple.h>
+#include <matrix.h>
 
 class Ray {
     public:
@@ -11,6 +12,7 @@ class Ray {
         Tuple origin;
         Tuple direction;
         Tuple Position(float t);
+        Ray transform(Matrix matrix);
 };
 
 #endif
