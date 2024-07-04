@@ -7,19 +7,26 @@ add_library(math
             src/math/color.cpp
             src/math/matrix.cpp
             src/math/ray.cpp
+            src/math/intersection.cpp
+            src/math/intersections.cpp
            )
 
 add_library(display 
             src/display/canvas.cpp
           )
 
-target_link_libraries(display math)
+add_library(shapes 
+          src/shapes/sphere.cpp
+        )
+
+target_link_libraries(display math shapes)
     
 target_include_directories(math PUBLIC include)
 target_include_directories(display PUBLIC include)
+target_include_directories(shapes PUBLIC include)
 
 add_executable(trace main.cpp)
-target_link_libraries(trace math display)
+target_link_libraries(trace math display shapes)
 target_include_directories(trace PUBLIC include)
 
 # UNIT TESTING
@@ -49,5 +56,5 @@ target_link_libraries(test5 math Catch2::Catch2WithMain)
 catch_discover_tests(test5)
 
 add_executable(test6 tests/ray_sphere_test.cpp)
-target_link_libraries(test6 math Catch2::Catch2WithMain)
+target_link_libraries(test6 math shapes Catch2::Catch2WithMain)
 catch_discover_tests(test6)
