@@ -9,6 +9,7 @@
 #include "sphere.h"
 #include <intersection.h>
 #include <intersections.h>
+#include <optional>
 
 TEST_CASE("Rays") {
     Tuple origin = Point(1, 2, 3);
@@ -87,4 +88,41 @@ TEST_CASE("Intersection sets object"){
     REQUIRE(xs.size() == 2);
     REQUIRE(xs[0].object == &s);
     REQUIRE(xs[1].object == &s);
+}
+
+TEST_CASE("Hit, positive t"){
+    Sphere s = Sphere();
+    Intersection i1 = Intersection(1, &s);
+    Intersection i2 = Intersection(2, &s);
+    Intersections xs = Intersections(std::vector<Intersection>{i1, i2});
+    Intersection i = xs.hit().value();
+    REQUIRE(i == i1);
+}
+
+TEST_CASE("Hit, some negative t"){
+    Sphere s = Sphere();
+    Intersection i1 = Intersection(-1, &s);
+    Intersection i2 = Intersection(1, &s);
+    Intersections xs = Intersections(std::vector<Intersection>{i1, i2});
+    Intersection i = xs.hit().value();
+    REQUIRE(i == i2);
+}
+
+TEST_CASE("Hit, all negative t"){
+    Sphere s = Sphere();
+    Intersection i1 = Intersection(-2, &s);
+    Intersection i2 = Intersection(-1, &s);
+    Intersections xs = Intersections(std::vector<Intersection>{i1, i2});
+    REQUIRE((bool) xs.hit() == false);
+}
+
+TEST_CASE("Hit, sorted properly"){
+    Sphere s = Sphere();
+    Intersection i1 = Intersection(5, &s);
+    Intersection i2 = Intersection(7, &s);
+    Intersection i3 = Intersection(-3, &s);
+    Intersection i4 = Intersection(2, &s);
+    Intersections xs = Intersections(std::vector<Intersection>{i1, i2, i3, i4});
+    Intersection i = xs.hit().value();
+    REQUIRE(i == i4);
 }

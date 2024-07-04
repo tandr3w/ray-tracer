@@ -3,6 +3,7 @@
 
 #include <intersection.h>
 #include <vector>
+#include <optional>
 
 class Intersections {
     public:
@@ -10,6 +11,8 @@ class Intersections {
         std::vector<Intersection> intersections;
         Intersection operator[](int);
         int size();
+        std::optional<Intersection> hit();
+        void sort();
 };
 
 #endif

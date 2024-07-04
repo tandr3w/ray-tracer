@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 project(rayTracer)
+set(CMAKE_CXX_STANDARD 17)
 
 add_library(math 
             src/math/tuple.cpp 

@@ -6,6 +6,7 @@
 #include <tuple.h>
 #include <ray.h>
 #include <intersections.h>
+#include <intersection.h>
 
 class Sphere {
     public:

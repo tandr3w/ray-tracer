@@ -6,6 +6,7 @@ class Intersection {
         Intersection(float _t, const void* _object);
         float t;
         const void* object;
+        bool operator==(const Intersection other);
 };
 
 #endif
