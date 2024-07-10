@@ -17,6 +17,9 @@ Tuple Vector(float x, float y, float z);
 float Magnitude(Tuple& t);
 Tuple Normalize(Tuple& t);
 
+Tuple reflect(Tuple in, Tuple normal);
+
+
 float dot(Tuple& a, Tuple& b);
 Tuple cross(Tuple& a, Tuple& b);
 

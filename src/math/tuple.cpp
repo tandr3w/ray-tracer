@@ -53,6 +53,11 @@ bool Tuple::isVector() const{
     return w == 0.0;
 }
 
+Tuple reflect(Tuple in, Tuple normal){
+    return in - normal * 2 * dot(in, normal);
+}
+
+
 float Magnitude(Tuple& t){
     return sqrt(pow(t.x, 2) + pow(t.y, 2) + pow(t.z, 2) + pow(t.w, 2));
 }

@@ -5,6 +5,10 @@
 #include <color.h>
 #include <intersection.h>
 #include <intersections.h>
+#include <material.h>
+#include <lights.h>
+#include <optional>
+
 
 // TODO:
 // Convert vectors to dynamically allocated arrays
@@ -16,6 +20,7 @@
 // Fix type conversion warnings
 // Convert functions w/ classes as parameters to methods; don't use both at the same time like a dumbass
 // Add __str__ methods to all classes?
+// Turn double constants into floats
 
 // Build: 
 // cd build
@@ -32,6 +37,8 @@ int main(){
     Canvas canvas = Canvas(canvas_pixels, canvas_pixels);
     Color color = Color(1, 0, 0);
     Sphere shape = Sphere();
+    PointLight light = PointLight(Point(-10, 10, -10), Color(1, 1, 1));
+    shape.material.color = Color(1, 0.2, 1);
     int count = 0;
     for (int y=0; y<canvas_pixels; y++){
         float world_y = half - y * pixel_size;
@@ -44,7 +51,14 @@ int main(){
             // std::cout << "Ray direction " << r.direction.x << " " << r.direction.y << " " << r.direction.z << std::endl;
             Intersections xs = shape.Intersect(r);
             // std::cout << xs.size();
-            if (xs.hit()){
+            std::optional<Intersection> hit = xs.hit();
+            if (hit){
+                Intersection _hit = hit.value();
+                Tuple point = r.Position(_hit.t);
+                Sphere hit_object = *(Sphere*) _hit.object;
+                Tuple normal = hit_object.normal_at(point);
+                Tuple eye = -r.direction;
+                color = Lighting(hit_object.material, light, point, eye, normal);
                 canvas.write_pixel(x, y, color);
                 // std::cout << x << " " << y << std::endl;
 
@@ -53,9 +67,8 @@ int main(){
             // std::cout << count << "/" << canvas_pixels*canvas_pixels << " pixels done" << std::endl;
         }
     }
-    std::cout << canvas.to_ppm();
+    std::cout << "Done! Press enter to escape.";
     canvas.to_file(canvas.to_ppm());
-    std::cout << canvas.pixel_at(0, 0).red;
     std::getchar();
     return 0;
 }

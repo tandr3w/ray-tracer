@@ -10,6 +10,8 @@ add_library(math
             src/math/ray.cpp
             src/math/intersection.cpp
             src/math/intersections.cpp
+            src/math/lights.cpp
+            src/math/material.cpp
            )
 
 add_library(display 
@@ -59,3 +61,7 @@ catch_discover_tests(test5)
 add_executable(test6 tests/ray_sphere_test.cpp)
 target_link_libraries(test6 math shapes Catch2::Catch2WithMain)
 catch_discover_tests(test6)
+
+add_executable(test7 tests/shading_test.cpp)
+target_link_libraries(test7 math shapes Catch2::Catch2WithMain)
+catch_discover_tests(test7)

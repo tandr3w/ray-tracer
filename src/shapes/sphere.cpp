@@ -9,6 +9,7 @@
 #include <constants.h>
 #include <stdexcept>
 #include <string>
+#include <material.h>
 
 Sphere::Sphere(){
 
@@ -38,4 +39,12 @@ Intersections Sphere::Intersect(Ray& _r){
 
 void Sphere::set_transform(Matrix _transform){
     transform = _transform;
+}
+
+Tuple Sphere::normal_at(Tuple world_point){
+    Tuple object_point = inverse(transform) * world_point;
+    Tuple object_normal = object_point - Point(0, 0, 0);
+    Tuple world_normal = transpose(inverse(transform)) * object_normal;
+    world_normal.w = 0;
+    return Normalize(world_normal);
 }
